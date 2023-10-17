@@ -9,7 +9,7 @@ api_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
 
 # Set the parameters for your search
 params = {
-    'location': 'latitude,longitude',  
+    'location': '39.7726,-86.1751',  # IUPUI coordinates
     'radius': '1000',  
     'keyword': 'food truck',
     'key': api_key,
